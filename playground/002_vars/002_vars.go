@@ -13,4 +13,8 @@ func main() {
 
 	// these are the same
 	fmt.Printf("%d (%T), %d (%T), %d (%T)\n", i0, i0, i1, i1, i2, i2)
+
+	// weirdly, this is allowed
+	var _ = 42
+	var _ int
 }
